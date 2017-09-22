@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="1027" started-at="2017-09-22T18:11:11Z" finished-at="2017-09-22T18:11:12Z">
+    <groups>
+    </groups>
+    <test name="testinTesting" duration-ms="1027" started-at="2017-09-22T18:11:11Z" finished-at="2017-09-22T18:11:12Z">
+      <class name="FirstTestNGExample.SecondDemo">
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:FirstTestNGExample.SecondDemo@36d64342]" name="secondTest" duration-ms="1006" started-at="2017-09-22T14:11:11Z" finished-at="2017-09-22T14:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:FirstTestNGExample.SecondDemo@36d64342]" name="firstTest" duration-ms="0" started-at="2017-09-22T14:11:12Z" depends-on-methods="FirstTestNGExample.SecondDemo.secondTest" finished-at="2017-09-22T14:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+      </class> <!-- FirstTestNGExample.SecondDemo -->
+      <class name="FirstTestNGExample.TestNGDemo">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FirstTestNGExample.TestNGDemo@49e4cb85]" name="beforeTest" is-config="true" duration-ms="7" started-at="2017-09-22T14:11:11Z" finished-at="2017-09-22T14:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FirstTestNGExample.TestNGDemo@49e4cb85]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:11:12Z" finished-at="2017-09-22T14:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:FirstTestNGExample.TestNGDemo@49e4cb85]" name="secondTest" duration-ms="0" started-at="2017-09-22T14:11:12Z" finished-at="2017-09-22T14:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:FirstTestNGExample.TestNGDemo@49e4cb85]" name="firstTest" duration-ms="1" started-at="2017-09-22T14:11:12Z" finished-at="2017-09-22T14:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FirstTestNGExample.TestNGDemo@49e4cb85]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:11:12Z" finished-at="2017-09-22T14:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FirstTestNGExample.TestNGDemo@49e4cb85]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:11:12Z" finished-at="2017-09-22T14:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FirstTestNGExample.TestNGDemo@49e4cb85]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:11:12Z" finished-at="2017-09-22T14:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:FirstTestNGExample.TestNGDemo@49e4cb85]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-09-22T14:11:12Z" finished-at="2017-09-22T14:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- FirstTestNGExample.TestNGDemo -->
+    </test> <!-- testinTesting -->
+  </suite> <!-- Automation -->
+</testng-results>

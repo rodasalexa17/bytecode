@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation">
+	<test name="testcases">
+	<groups>
+	<run>
+		<include name = "group1"/>
+	</run>
+	</groups>
+		<classes>
+		<class name = "FirstTestNGExample.GroupTest"/>
+		<class name = "FirstTestNGExample.SecondDemo"/>
+	</classes>
+	</test>
+</suite>

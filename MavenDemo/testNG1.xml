@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation">
+	<test name="testinTesting">
+	<classes>
+		<class name = "FirstTestNGExample.SecondDemo"/>
+		<class name = "FirstTestNGExample.TestNGDemo"/>
+		
+	</classes>
+	</test>
+</suite>
